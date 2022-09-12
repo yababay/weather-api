@@ -40,7 +40,6 @@ window.addEventListener('hashchange', function (event) {
 })
 
 function hideSection(section, yes = true){
-    console.log(yes ? 'hide' : 'show')
     if(yes) section.classList.add('d-none')
     else section.classList.remove('d-none')
 }
