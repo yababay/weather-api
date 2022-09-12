@@ -1,5 +1,0 @@
-http://api.openweathermap.org/data/2.5/weather?q=524901&appid=02aa797d46ba94205ffe0cae65811a3b&units=metric
-
-http://api.openweathermap.org/data/2.5/forecast/daily?id=2643743&appid=02aa797d46ba94205ffe0cae65811a3b&units=metric
-
-{"coord":{"lon":37.6156,"lat":55.7522},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":10.81,"feels_like":9.25,"temp_min":9.75,"temp_max":11.29,"pressure":1019,"humidity":50,"sea_level":1019,"grnd_level":1001},"visibility":10000,"wind":{"speed":0.62,"deg":213,"gust":1.49},"clouds":{"all":100},"dt":1662920910,"sys":{"type":2,"id":47754,"country":"RU","sunrise":1662864792,"sunset":1662911980},"timezone":10800,"id":524901,"name":"Moscow","cod":200}
