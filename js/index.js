@@ -71,11 +71,11 @@ async function showCity(city, title){
         temperature.textContent = data.main.temp
         humidity.textContent = data.main.humidity
         windSpeed.textContent = data.wind.speed
+        showSection(citySection)
     }
     catch(err){
         showError(err)
     }
-    showSection(citySection)
 }
 
 function showError(err){
