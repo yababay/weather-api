@@ -63,6 +63,7 @@ function showIntro(){
 async function showCity(city, title){
     hideAll()
     try {
+        if(document.URL.includes('github')) throw 'К сожалению, Github не разрешает обращаться к посторонним API. Скопируйте проект на локальный компьютер.'
         const res = await fetch(getUrl(city))
         if(!res.ok) throw `Не удалось обработать запрос о погоде в городе ${title}`
         const data = await res.json()
